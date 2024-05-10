@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+}
+.sign-up-page {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+.sign-up-page-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-page-right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.leaf-img {
+    width: 33vw;
+    max-height: 100vh;
+}
+
+
+.overlay {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 33vw;
+    height: 150px;
+    top: 10%;
+}
+
+.odin-image{
+    height: 100%;
+    width: auto;
+    opacity: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.odin-text {
+    font-family: "Norse-Bold";
+    color: white;
+    font-size: 80px;
+    opacity: 100%;
+}
+
+.quote {
+    background-color: rgba(249,250,252,255);
+    font-size: 28px;
+    font-weight: bold;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* max-width: 55ch; */
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.form-input {
+    display: flex;
+    gap: 80px;
+}
+
+input {
+    border-radius: 3px;
+    bo
+}
+
+.form-left,.form-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
